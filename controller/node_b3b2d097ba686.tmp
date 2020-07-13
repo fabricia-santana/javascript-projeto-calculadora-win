@@ -1,0 +1,184 @@
+//31
+/*var n1 = 2, n2 = 1, n3=0;
+
+if(n1 > (n2+n3) && n2<(n1+n3) && n3<(n1+n2)){
+    console.log('É um triangulo');
+    
+}else{
+    console.log('Não é triangulo');
+    
+}*/
+
+//36
+/*let idadeM1 = 30, idadeM2= 60, idadeH1= 45, idadeH2=70;
+
+if(idadeH1 > idadeH2 && idadeM1< idadeM2){
+    console.log(`Soma: ${idadeH1 + idadeM1}`);
+    console.log(`Produto: ${idadeH2 * idadeM2}`);
+    
+}else if(idadeH1 > idadeH2 && idadeM2 < idadeM1){
+    console.log(`Soma: ${idadeH1 + idadeM2}`);
+    console.log(`Produto: ${idadeH2 * idadeM1}`);
+    
+}else if(idadeH2 > idadeH1 && idadeM1< idadeM2){
+    console.log(`Soma: ${idadeH2 + idadeM1}`);
+    console.log(`Produto: ${idadeH1 * idadeM2}`);
+    
+}else{
+    console.log(`Soma: ${idadeH1 + idadeM2}`);
+    console.log(`Produto: ${idadeH2 * idadeM1}`);
+
+}*/
+
+//37
+/*let qtdMor = 5, qtdMaca = 10;
+let valorTotal = 0;
+
+if(qtdMor <= 5){
+    valorTotal = qtdMor * 2,5;
+}else{
+    valorTotal = qtdMor * 2,2;
+}
+
+if(qtdMaca <= 5){
+    valorTotal += qtdMaca * 1,8;
+}else{
+    valorTotal += qtdMaca * 1,5;
+}
+
+if(valorTotal > 25){
+    valorTotal -= valorTotal * 0,1;
+}
+console.log(valorTotal);*/
+
+//38
+/*let codigo = 1234;
+let senha = 9999;
+
+if(codigo === 1234 ){
+    if(senha === 9999){
+        console.log('Acesso permitido!');
+        
+    }else{
+        console.log('Senha incorreta');
+        
+    }
+    
+} else{
+    console.log('Usuário inválido');
+    
+}*/
+
+//40
+/*let nome= 'chaleira', qtd = 20, preco = 65;
+let total = 0;
+
+if(qtd <= 5){
+    total = (preco * qtd) - (preco * qtd * 0.2);
+}else if(qtd > 5 && qtd <= 10){
+    total = (preco * qtd) - (preco * qtd * 0.3);
+}else{
+    total = (preco * qtd) - (preco * qtd * 0.5);
+}
+
+console.log(total);*/
+
+//41
+/*let nota1 = 7, nota2 = 9, nota3 = 10, mediaExec = 9;
+
+let mediaApro = (nota1 + nota2 * 2 + nota3 * 3 + mediaExec)/7;
+console.log(mediaApro);
+
+if(mediaApro >= 9){
+    console.log('A');
+    
+}else if( mediaApro >= 7.5 && mediaApro < 9 ){
+    console.log('B');
+    
+}else if(mediaApro >= 6 && mediaApro < 7.5){
+    console.log('C');
+    
+}else{
+    console.log('D');
+    
+}*/
+
+//42
+/*let codigo = 1, anoNasc = 1984, anoIngre = 2010;
+
+let idade = 2020 - anoNasc;
+let tempTrab = 2020 - anoIngre;
+let aposentadoria = ''
+
+if( idade >= 60 && tempTrab >=25){
+    aposentadoria = 'Requer aposentadoria';  
+}else if(idade >= 65){
+    aposentadoria = 'Requer aposentadoria';  
+    
+}else if(tempTrab >= 30){
+    aposentadoria = 'Requer aposentadoria';  
+    
+}else{
+    aposentadoria = 'Não Requer';  
+
+}
+
+console.log(`Idade: ${idade}, Tempo de Trabalho: ${tempTrab}, ${aposentadoria}`);
+*/
+
+//44
+/*let valor1 = 5, valor2= 3;
+
+if(valor2 == 0){
+    console.log('Favor informar um novo valor2');
+    
+}else{
+    console.log(valor1/valor2);
+    
+}*/
+
+//45
+/*let valor1 = 5, valor2=0;
+
+while(valor2 == 0){
+   valor2 +=1;
+    
+}
+console.log(valor1/valor2);*/
+
+//46
+/*let valor1 = 5, valor2= 0;
+
+if(valor2 == 0){
+    console.log('Valor inválido');
+    
+}else{
+    console.log(valor1/valor2);
+    
+}*/
+
+//47
+/*let valor1 = 5, valor2=0;
+
+while(valor2 == 0){
+    console.log('Valor inválido');
+    valor2 +=1;
+    
+}
+console.log(valor1/valor2);*/
+
+//48
+/*let av1 = 4, av2 = 9;
+console.log(av1 + av2/2);*/
+
+//50
+/*for(let i=1; i <= 10; i++){
+    console.log(i);
+    
+}*/
+
+//51
+for(let i=1; i <=10; i--){
+    console.log(i);
+    
+}
